@@ -76,6 +76,13 @@ builder.Services.AddSwaggerGen();
 Log.Information("Services registered successfully");
 Log.Information("Building application...");
 
+//registrare servizi
+
+builder.Services.AddScoped<AuthService>();
+builder.Services.AddScoped<ArtistaService>();
+builder.Services.AddScoped<EventoService>();
+builder.Services.AddScoped<BigliettoService>();
+
 var app = builder.Build();
 
 app.UseSerilogRequestLogging();
