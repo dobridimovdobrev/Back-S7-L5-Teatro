@@ -58,7 +58,7 @@ namespace Teatro.Helpers
                     superAdminRole = new ApplicationRole()
                     {
                         Name = StringConstants.AdminRole,
-                        Description = "Amministratore del sistema",
+                        Description = "Admin del sistema",
                         Active = true
                     };
 
@@ -114,9 +114,9 @@ namespace Teatro.Helpers
                     ApplicationUser superAdmin = new ApplicationUser()
                     {
                         Active = true,
-                        DataDiNascita = new DateOnly(1990, 1, 1),
-                        Nome = "Admin",
-                        Cognome = "Sistema",
+                        DataDiNascita = new DateOnly(1988, 02, 28),
+                        Nome = "Dobri",
+                        Cognome = "Dobrev",
                         Email = StringConstants.AdminEmail,
                         UserName = StringConstants.AdminEmail,
                         DataCreazione = DateTime.UtcNow,

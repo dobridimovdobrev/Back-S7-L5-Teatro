@@ -73,8 +73,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-Log.Information("Services registered successfully");
-Log.Information("Building application...");
+Log.Information("Servizi registrati con successo");
+Log.Information("Applicazione in produzione...");
 
 //registrare servizi
 
@@ -116,6 +116,6 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 
-Log.Information("Running application...");
+Log.Information("Applicazzione in produzione...");
 
 app.Run();

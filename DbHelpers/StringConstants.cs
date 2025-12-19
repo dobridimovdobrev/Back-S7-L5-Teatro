@@ -5,7 +5,7 @@
         public const string AdminRole = "SuperAdmin";
         public const string UserRole = "Utente";
 
-        public const string AdminEmail = "admin@teatro.com";
-        public const string AdminPassword = "Admin123!";
+        public const string AdminEmail = "admin@yahoo.com";
+        public const string AdminPassword = "Svqtiqduh1!";
     }
 }
