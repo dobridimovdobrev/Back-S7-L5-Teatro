@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Teatro.Models.Dto
+namespace Teatro.Models.Dto.Requests
 {
     public class LoginRequest
     {

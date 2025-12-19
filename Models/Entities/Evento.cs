@@ -26,7 +26,6 @@ namespace Teatro.Models.Entities
 
         [Required]
         [ForeignKey(nameof(ArtistaId))]
-        [DeleteBehavior(DeleteBehavior.NoAction)]
         public Artista? Artista { get; set; }
 
         public ICollection<Biglietto>? Biglietti { get; set; }

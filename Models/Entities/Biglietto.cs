@@ -18,8 +18,6 @@ namespace Teatro.Models.Entities
 
         [Required]
         [ForeignKey(nameof(EventoId))]
-
-        [DeleteBehavior(DeleteBehavior.NoAction)]
         public Evento? Evento { get; set; }
 
         [Required]
@@ -27,8 +25,6 @@ namespace Teatro.Models.Entities
 
         [Required]
         [ForeignKey(nameof(UserId))]
-
-        [DeleteBehavior(DeleteBehavior.NoAction)]
         public ApplicationUser? User { get; set; }
     }
 }
