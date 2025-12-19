@@ -1,11 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Teatro.Models.Entity
+namespace Teatro.Models.Entities
 {
     public class Artista
     {
         [Key]
-        public Guid Id { get; set; }
+        public Guid ArtistaId { get; set; }
 
         [Required]
         [StringLength(50)]

@@ -2,13 +2,13 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Teatro.Models.Entity
+namespace Teatro.Models.Entities
 {
     public class Evento
     {
 
         [Key]
-        public Guid Id { get; set; }
+        public Guid EventoId { get; set; }
 
         [Required]
         [StringLength(50)]
