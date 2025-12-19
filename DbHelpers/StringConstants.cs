@@ -6,6 +6,6 @@
         public const string UserRole = "Utente";
 
         public const string AdminEmail = "admin@yahoo.com";
-        public const string AdminPassword = "Svqtiqduh1!";
+        public const string AdminPassword = "Dobri123!";
     }
 }
